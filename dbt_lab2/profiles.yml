@@ -1,0 +1,39 @@
+build_mau:
+  outputs:
+    dev:
+      account: OOZLTBK-MB29317
+      database: dev
+      password: Czlq5hvu@
+      role: ACCOUNTADMIN
+      schema: analytics
+      threads: 1
+      type: snowflake
+      user: imsaurabh
+      warehouse: compute_wh
+  target: dev
+build_session_summary:
+  outputs:
+    dev:
+      account: OOZLTBK-MB29317
+      database: dev
+      password: Czlq5hvu@
+      role: ACCOUNTADMIN
+      schema: analytics
+      threads: 1
+      type: snowflake
+      user: imsaurabh
+      warehouse: COMPUTE_WH
+  target: dev
+dbt_lab2:
+  outputs:
+    dev:
+      account: QQOQSGU-YB40887
+      database: STOCK_PRICE_DB
+      password: Deva@123
+      role: ACCOUNTADMIN
+      schema: RAW_DATA
+      threads: 1
+      type: snowflake
+      user: deva
+      warehouse: COMPUTE_WH
+  target: dev
